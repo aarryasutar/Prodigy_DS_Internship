@@ -82,3 +82,44 @@ Usage
 - Run the script to load the data, preprocess it, train the model, and evaluate its performance.
 - Visualize the decision tree to understand the model's decisions.
 
+
+
+## Task 4 (Social Media Sentiment Analysis)
+This project analyzes the sentiment of social media posts using the VADER (Valence Aware Dictionary and sEntiment Reasoner) sentiment analysis tool from NLTK. The analysis includes sentiment distribution, sentiment trends over time, and visualization of common words in positive and negative posts.
+
+Overview
+- **Data Source**: A CSV file containing social media posts with 'text' and 'timestamp' columns.
+- **Sentiment Analysis**: Utilizes the VADER sentiment analyzer to compute sentiment scores for each post.
+- **Visualizations**:
+  - Sentiment distribution histogram.
+  - Sentiment trends over time.
+  - Word clouds for positive and negative sentiments.
+
+Steps
+1. **Data Loading**: Load the dataset containing social media posts.
+2. **Sentiment Analysis**: Apply the VADER sentiment analyzer to each post to obtain sentiment scores.
+3. **Visualization**:
+   - **Sentiment Distribution**: Plot a histogram of sentiment scores.
+   - **Sentiment Trends Over Time**: Calculate and plot the average sentiment score over time.
+   - **Word Clouds**: Generate word clouds for positive and negative sentiment posts.
+
+Requirements
+- `pandas` for data manipulation.
+- `nltk` for sentiment analysis.
+- `matplotlib` and `seaborn` for data visualization.
+- `wordcloud` for generating word clouds.
+
+Usage
+- Ensure the dataset is named `your_dataset.csv` and contains 'text' and 'timestamp' columns.
+- Run the script to perform sentiment analysis and generate visualizations.
+
+Example Visualizations
+1. **Sentiment Distribution**:
+   ![Sentiment Distribution](images/sentiment_distribution.png)
+2. **Sentiment Trends Over Time**:
+   ![Sentiment Trends](images/sentiment_trends.png)
+3. **Positive and Negative Sentiment Word Clouds**:
+   ![Positive Sentiment Word Cloud](images/positive_wordcloud.png)
+   ![Negative Sentiment Word Cloud](images/negative_wordcloud.png)
+
+
