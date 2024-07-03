@@ -33,4 +33,4 @@ Requirements
 Usage
 - Load the Titanic dataset as a CSV file named `titanic.csv`.
 - Run the script to clean the data and generate visualizations.
-```
+
