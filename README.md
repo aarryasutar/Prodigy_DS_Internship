@@ -30,12 +30,12 @@ Overview :
   - Displays a correlation heatmap of numerical features.
     
 - **Visualizations**:
-- Survival by Gender: Count plot showing the number of survivors and non-survivors by gender.
-- Survival by Passenger Class: Count plot showing the number of survivors and non-survivors by passenger class.
-- Age Distribution: Histogram with a kernel density estimate (KDE) showing the distribution of ages.
-- Fare Distribution: Histogram with a KDE showing the distribution of fares.
-- Survival by Embarkation Point: Count plot showing the number of survivors and non-survivors by embarkation point.
-- Correlation Heatmap: Heatmap displaying the correlations between numerical features.
+   - Survival by Gender: Count plot showing the number of survivors and non-survivors by gender.
+   - Survival by Passenger Class: Count plot showing the number of survivors and non-survivors by passenger class.
+   - Age Distribution: Histogram with a kernel density estimate (KDE) showing the distribution of ages.
+   - Fare Distribution: Histogram with a KDE showing the distribution of fares.
+   - Survival by Embarkation Point: Count plot showing the number of survivors and non-survivors by embarkation point.
+   - Correlation Heatmap: Heatmap displaying the correlations between numerical features.
   
 Requirements
 - `pandas` for data manipulation.
