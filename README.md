@@ -113,13 +113,5 @@ Usage
 - Ensure the dataset is named `your_dataset.csv` and contains 'text' and 'timestamp' columns.
 - Run the script to perform sentiment analysis and generate visualizations.
 
-Example Visualizations
-1. **Sentiment Distribution**:
-   ![Sentiment Distribution](images/sentiment_distribution.png)
-2. **Sentiment Trends Over Time**:
-   ![Sentiment Trends](images/sentiment_trends.png)
-3. **Positive and Negative Sentiment Word Clouds**:
-   ![Positive Sentiment Word Cloud](images/positive_wordcloud.png)
-   ![Negative Sentiment Word Cloud](images/negative_wordcloud.png)
 
 
